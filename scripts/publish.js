@@ -62,7 +62,13 @@ const ARTICLE_ILLUSTRATIONS = {
   'the-landlord-of-ai-inside-coreweave-s-brian-venturo': ['04-landlord-of-ai.png'],
   'the-real-time-payments-race-how-fednow-and-rtp-are-reshaping': ['15-real-time-payments.png'],
   'the-ai-agent-revolution-what-happens-when-workers-say-not-so': ['16-ai-worker-partnership.png'],
-  'the-ai-supply-chain-collision-when-machine-generated-code-be': ['17-ai-supply-chain.png']
+  'the-ai-supply-chain-collision-when-machine-generated-code-be': ['17-ai-supply-chain.png'],
+  'embedded-finance-the-228b-infrastructure-play-hiding-in-plai': ['18-embedded-finance.png'],
+  'the-voice-of-deception-how-deepfake-vishing-became-2025-s-mo': ['19-deepfake-vishing.png'],
+  'mcp-the-usb-c-moment-for-ai-agents': ['20-mcp-protocol.png'],
+  'the-inference-wars-how-specialized-ai-chips-are-eating-nvidi': ['21-inference-wars.png'],
+  'the-chess-prodigy-who-won-a-nobel-prize-demis-hassabis-and-t': ['22-demis-hassabis.png'],
+  'the-sound-of-slop-how-ai-music-became-the-new-muzak-and-why-': ['23-ai-music-slop.png']
 };
 
 // Navigation sections

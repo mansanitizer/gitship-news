@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <!-- Sepia gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3"/>
+      <stop offset="100%" style="stop-color:#d4c4a8"/>
+    </linearGradient>
+    <!-- Paper texture -->
+    <pattern id="paperTexture" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#f5e6d3"/>
+      <circle cx="25" cy="35" r="0.5" fill="#c9b896" opacity="0.3"/>
+      <circle cx="55" cy="25" r="0.7" fill="#c9b896" opacity="0.2"/>
+      <circle cx="85" cy="55" r="0.4" fill="#c9b896" opacity="0.25"/>
+      <circle cx="35" cy="75" r="0.6" fill="#c9b896" opacity="0.2"/>
+      <circle cx="65" cy="95" r="0.5" fill="#c9b896" opacity="0.3"/>
+    </pattern>
+    <!-- Server rack gradient -->
+    <linearGradient id="rackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#b8a080"/>
+      <stop offset="50%" style="stop-color:#d4c4a8"/>
+      <stop offset="100%" style="stop-color:#a08060"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#paperTexture)"/>
+  
+  <!-- Decorative border -->
+  <rect x="15" y="15" width="770" height="470" fill="none" stroke="#5c4a32" stroke-width="3"/>
+  <rect x="22" y="22" width="756" height="456" fill="none" stroke="#8b7355" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="400" y="55" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#3d2f1f" text-anchor="middle">THE LANDLORD OF AI</text>
+  <line x1="200" y1="65" x2="600" y2="65" stroke="#5c4a32" stroke-width="2"/>
+  <text x="400" y="85" font-family="Georgia, serif" font-size="14" fill="#6b5a45" text-anchor="middle" font-style="italic">Brian Venturo &amp; The Rise of CoreWeave</text>
+  
+  <!-- Main composition: Data center with landlord silhouette -->
+  <g transform="translate(400, 290)">
+    
+    <!-- Data center server racks (background) -->
+    <g transform="translate(-180, -120)">
+      <!-- Rack 1 -->
+      <rect x="0" y="0" width="50" height="180" fill="url(#rackGrad)" stroke="#5c4a32" stroke-width="1.5"/>
+      <g fill="#5c4a32" opacity="0.4">
+        <rect x="5" y="10" width="40" height="8" rx="1"/>
+        <rect x="5" y="25" width="40" height="8" rx="1"/>
+        <rect x="5" y="40" width="40" height="8" rx="1"/>
+        <rect x="5" y="55" width="40" height="8" rx="1"/>
+        <rect x="5" y="70" width="40" height="8" rx="1"/>
+        <rect x="5" y="85" width="40" height="8" rx="1"/>
+        <rect x="5" y="100" width="40" height="8" rx="1"/>
+        <rect x="5" y="115" width="40" height="8" rx="1"/>
+        <rect x="5" y="130" width="40" height="8" rx="1"/>
+        <rect x="5" y="145" width="40" height="8" rx="1"/>
+        <rect x="5" y="160" width="40" height="8" rx="1"/>
+      </g>
+      <!-- Lights on rack -->
+      <circle cx="10" cy="14" r="2" fill="#4a7c59" opacity="0.6"/>
+      <circle cx="18" cy="14" r="2" fill="#4a7c59" opacity="0.6"/>
+      <circle cx="10" y="44" r="2" fill="#4a7c59" opacity="0.5"/>
+      <circle cx="10" cy="74" r="2" fill="#d4af37" opacity="0.5"/>
+      <circle cx="18" cy="74" r="2" fill="#4a7c59" opacity="0.6"/>
+    </g>
+    
+    <!-- Rack 2 -->
+    <g transform="translate(-120, -120)">
+      <rect x="0" y="0" width="50" height="180" fill="url(#rackGrad)" stroke="#5c4a32" stroke-width="1.5"/>
+      <g fill="#5c4a32" opacity="0.4">
+        <rect x="5" y="10" width="40" height="8" rx="1"/>
+        <rect x="5" y="25" width="40" height="8" rx="1"/>
+        <rect x="5" y="40" width="40" height="8" rx="1"/>
+        <rect x="5" y="55" width="40" height="8" rx="1"/>
+        <rect x="5" y="70" width="40" height="8" rx="1"/>
+        <rect x="5" y="85" width="40" height="8" rx="1"/>
+        <rect x="5" y="100" width="40" height="8" rx="1"/>
+        <rect x="5" y="115" width="40" height="8" rx="1"/>
+        <rect x="5" y="130" width="40" height="8" rx="1"/>
+        <rect x="5" y="145" width="40" height="8" rx="1"/>
+        <rect x="5" y="160" width="40" height="8" rx="1"/>
+      </g>
+      <circle cx="10" cy="14" r="2" fill="#4a7c59" opacity="0.6"/>
+      <circle cx="10" cy="44" r="2" fill="#d4af37" opacity="0.5"/>
+      <circle cx="10" cy="104" r="2" fill="#4a7c59" opacity="0.5"/>
+      <circle cx="18" cy="104" r="2" fill="#4a7c59" opacity="0.6"/>
+    </g>
+    
+    <!-- Rack 3 (center, tallest) -->
+    <g transform="translate(-60, -140)">
+      <rect x="0" y="0" width="50" height="200" fill="url(#rackGrad)" stroke="#5c4a32" stroke-width="1.5"/>
+      <g fill="#5c4a32" opacity="0.4">
+        <rect x="5" y="10" width="40" height="8" rx="1"/>
+        <rect x="5" y="25" width="40" height="8" rx="1"/>
+        <rect x="5" y="40" width="40" height="8" rx="1"/>
+        <rect x="5" y="55" width="40" height="8" rx="1"/>
+        <rect x="5" y="70" width="40" height="8" rx="1"/>
+        <rect x="5" y="85" width="40" height="8" rx="1"/>
+        <rect x="5" y="100" width="40" height="8" rx="1"/>
+        <rect x="5" y="115" width="40" height="8" rx="1"/>
+        <rect x="5" y="130" width="40" height="8" rx="1"/>
+        <rect x="5" y="145" width="40" height="8" rx="1"/>
+        <rect x="5" y="160" width="40" height="8" rx="1"/>
+        <rect x="5" y="175" width="40" height="8" rx="1"/>
+      </g>
+      <circle cx="10" cy="14" r="2" fill="#d4af37" opacity="0.7"/>
+      <circle cx="18" cy="14" r="2" fill="#4a7c59" opacity="0.6"/>
+      <circle cx="10" cy="44" r="2" fill="#4a7c59" opacity="0.5"/>
+      <circle cx="10" cy="104" r="2" fill="#4a7c59" opacity="0.6"/>
+      <circle cx="18" cy="104" r="2" fill="#d4af37" opacity="0.5"/>
+      <circle cx="10" cy="164" r="2" fill="#4a7c59" opacity="0.5"/>
+    </g>
+    
+    <!-- Rack 4 -->
+    <g transform="translate(0, -120)">
+      <rect x="0" y="0" width="50" height="180" fill="url(#rackGrad)" stroke="#5c4a32" stroke-width="1.5"/>
+      <g fill="#5c4a32" opacity="0.4">
+        <rect x="5" y="10" width="40" height="8" rx="1"/>
+        <rect x="5" y="25" width="40" height="8" rx="1"/>
+        <rect x="5" y="40" width="40" height="8" rx="1"/>
+        <rect x="5" y="55" width="40" height="8" rx="1"/>
+        <rect x="5" y="70" width="40" height="8" rx="1"/>
+        <rect x="5" y="85" width="40" height="8" rx="1"/>
+        <rect x="5" y="100" width="40" height="8" rx="1"/>
+        <rect x="5" y="115" width="40" height="8" rx="1"/>
+        <rect x="5" y="130" width="40" height="8" rx="1"/>
+        <rect x="5" y="145" width="40" height="8" rx="1"/>
+        <rect x="5" y="160" width="40" height="8" rx="1"/>
+      </g>
+      <circle cx="10" cy="14" r="2" fill="#4a7c59" opacity="0.6"/>
+      <circle cx="10" cy="74" r="2" fill="#4a7c59" opacity="0.5"/>
+      <circle cx="18" cy="134" r="2" fill="#d4af37" opacity="0.5"/>
+    </g>
+    
+    <!-- Rack 5 -->
+    <g transform="translate(60, -120)">
+      <rect x="0" y="0" width="50" height="180" fill="url(#rackGrad)" stroke="#5c4a32" stroke-width="1.5"/>
+      <g fill="#5c4a32" opacity="0.4">
+        <rect x="5" y="10" width="40" height="8" rx="1"/>
+        <rect x="5" y="25" width="40" height="8" rx="1"/>
+        <rect x="5" y="40" width="40" height="8" rx="1"/>
+        <rect x="5" y="55" width="40" height="8" rx="1"/>
+        <rect x="5" y="70" width="40" height="8" rx="1"/>
+        <rect x="5" y="85" width="40" height="8" rx="1"/>
+        <rect x="5" y="100" width="40" height="8" rx="1"/>
+        <rect x="5" y="115" width="40" height="8" rx="1"/>
+        <rect x="5" y="130" width="40" height="8" rx="1"/>
+        <rect x="5" y="145" width="40" height="8" rx="1"/>
+        <rect x="5" y="160" width="40" height="8" rx="1"/>
+      </g>
+      <circle cx="10" cy="14" r="2" fill="#4a7c59" opacity="0.5"/>
+      <circle cx="18" cy="44" r="2" fill="#4a7c59" opacity="0.6"/>
+      <circle cx="10" cy="104" r="2" fill="#d4af37" opacity="0.6"/>
+    </g>
+    
+    <!-- Rack 6 -->
+    <g transform="translate(120, -120)">
+      <rect x="0" y="0" width="50" height="180" fill="url(#rackGrad)" stroke="#5c4a32" stroke-width="1.5"/>
+      <g fill="#5c4a32" opacity="0.4">
+        <rect x="5" y="10" width="40" height="8" rx="1"/>
+        <rect x="5" y="25" width="40" height="8" rx="1"/>
+        <rect x="5" y="40" width="40" height="8" rx="1"/>
+        <rect x="5" y="55" width="40" height="8" rx="1"/>
+        <rect x="5" y="70" width="40" height="8" rx="1"/>
+        <rect x="5" y="85" width="40" height="8" rx="1"/>
+        <rect x="5" y="100" width="40" height="8" rx="1"/>
+        <rect x="5" y="115" width="40" height="8" rx="1"/>
+        <rect x="5" y="130" width="40" height="8" rx="1"/>
+        <rect x="5" y="145" width="40" height="8" rx="1"/>
+        <rect x="5" y="160" width="40" height="8" rx="1"/>
+      </g>
+      <circle cx="10" cy="14" r="2" fill="#d4af37" opacity="0.5"/>
+      <circle cx="10" cy="74" r="2" fill="#4a7c59" opacity="0.6"/>
+      <circle cx="18" cy="134" r="2" fill="#4a7c59" opacity="0.5"/>
+    </g>
+    
+    <!-- Floor line -->
+    <line x1="-200" y1="60" x2="200" y2="60" stroke="#5c4a32" stroke-width="2"/>
+    
+    <!-- The Landlord Silhouette (foreground) -->
+    <g transform="translate(0, -20)">
+      <!-- Body silhouette -->
+      <path d="M-35,80 L-40,-20 Q-45,-50 -25,-60 Q0,-70 25,-60 Q45,-50 40,-20 L35,80 Z" fill="#3d2f1f" opacity="0.85"/>
+      
+      <!-- Head -->
+      <ellipse cx="0" cy="-75" rx="22" ry="25" fill="#3d2f1f" opacity="0.85"/>
+      
+      <!-- Hair outline -->
+      <path d="M-20,-85 Q0,-100 20,-85" fill="none" stroke="#5c4a32" stroke-width="1.5" opacity="0.6"/>
+      
+      <!-- Arms crossed (landlord pose) -->
+      <path d="M-35,-30 Q-50,-10 -20,10" fill="none" stroke="#3d2f1f" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <path d="M35,-30 Q50,-10 20,10" fill="none" stroke="#3d2f1f" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <line x1="-20" y1="5" x2="20" y2="5" stroke="#3d2f1f" stroke-width="6" opacity="0.85"/>
+      
+      <!-- Key (landlord symbol) -->
+      <g transform="translate(50, -40)">
+        <circle cx="0" cy="0" r="8" fill="none" stroke="#d4af37" stroke-width="2"/>
+        <line x1="6" y1="6" x2="20" y2="20" stroke="#d4af37" stroke-width="2"/>
+        <rect x="18" y="18" width="8" height="6" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- CoreWeave logo hint (stylized hexagon) -->
+  <g transform="translate(720, 120)">
+    <polygon points="0,-20 17,-10 17,10 0,20 -17,10 -17,-10" fill="none" stroke="#5c4a32" stroke-width="1.5" opacity="0.5"/>
+    <text x="0" y="4" font-family="Georgia, serif" font-size="10" fill="#5c4a32" text-anchor="middle" opacity="0.6">CW</text>
+  </g>
+  
+  <!-- Decorative corner elements -->
+  <g fill="none" stroke="#5c4a32" stroke-width="1.5">
+    <path d="M30,30 L60,30 L60,60"/>
+    <path d="M770,30 L740,30 L740,60"/>
+    <path d="M30,470 L60,470 L60,440"/>
+    <path d="M770,470 L740,470 L740,440"/>
+  </g>
+  
+  <!-- Caption box -->
+  <rect x="100" y="400" width="600" height="60" fill="#f0e6d2" stroke="#8b7355" stroke-width="1"/>
+  <text x="400" y="425" font-family="Georgia, serif" font-size="13" fill="#3d2f1f" text-anchor="middle">While others build the machines, he owns the house they live in—</text>
+  <text x="400" y="445" font-family="Georgia, serif" font-size="13" fill="#3d2f1f" text-anchor="middle">the quiet power behind the AI revolution.</text>
+  
+  <!-- Newspaper footer -->
+  <text x="400" y="485" font-family="Georgia, serif" font-size="10" fill="#8b7355" text-anchor="middle">GITSHIP NEWS • PEOPLE EDITION • 1920s STYLE ILLUSTRATION</text>
+</svg>

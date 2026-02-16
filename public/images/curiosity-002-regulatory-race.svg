@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <!-- Sepia gradient background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3"/>
+      <stop offset="100%" style="stop-color:#d4c4a8"/>
+    </linearGradient>
+    <!-- Paper texture pattern -->
+    <pattern id="paperTexture" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#f5e6d3"/>
+      <circle cx="10" cy="10" r="0.5" fill="#c9b896" opacity="0.3"/>
+      <circle cx="30" cy="40" r="0.7" fill="#c9b896" opacity="0.2"/>
+      <circle cx="60" cy="20" r="0.4" fill="#c9b896" opacity="0.25"/>
+      <circle cx="80" cy="60" r="0.6" fill="#c9b896" opacity="0.2"/>
+      <circle cx="20" cy="80" r="0.5" fill="#c9b896" opacity="0.3"/>
+      <circle cx="50" cy="50" r="0.3" fill="#c9b896" opacity="0.2"/>
+      <circle cx="90" cy="90" r="0.4" fill="#c9b896" opacity="0.25"/>
+    </pattern>
+    <!-- Vintage halftone pattern -->
+    <pattern id="halftone" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#8b7355" opacity="0.4"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#paperTexture)"/>
+  
+  <!-- Decorative border -->
+  <rect x="15" y="15" width="770" height="470" fill="none" stroke="#5c4a32" stroke-width="3"/>
+  <rect x="22" y="22" width="756" height="456" fill="none" stroke="#8b7355" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="400" y="55" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#3d2f1f" text-anchor="middle">THE REGULATORY RACE</text>
+  <line x1="200" y1="65" x2="600" y2="65" stroke="#5c4a32" stroke-width="2"/>
+  <text x="400" y="85" font-family="Georgia, serif" font-size="14" fill="#6b5a45" text-anchor="middle" font-style="italic">Singapore Takes the Lead in Global AI Governance</text>
+  
+  <!-- World map outline (stylized) -->
+  <g transform="translate(100, 110)" fill="none" stroke="#5c4a32" stroke-width="1.5">
+    <!-- Simplified continents -->
+    <!-- North America -->
+    <path d="M80,80 Q60,60 40,90 Q30,120 50,150 Q70,170 90,160 Q110,140 100,100 Z" fill="#e8dcc8" stroke="#5c4a32"/>
+    <!-- South America -->
+    <path d="M120,180 Q100,170 110,200 Q115,240 130,260 Q150,250 145,210 Q140,190 120,180 Z" fill="#e8dcc8" stroke="#5c4a32"/>
+    <!-- Europe -->
+    <path d="M280,70 Q260,60 270,90 Q280,110 310,105 Q340,100 350,80 Q330,65 280,70 Z" fill="#e8dcc8" stroke="#5c4a32"/>
+    <!-- Africa -->
+    <path d="M300,130 Q280,120 290,160 Q295,220 320,250 Q350,240 360,190 Q370,150 340,130 Q320,125 300,130 Z" fill="#e8dcc8" stroke="#5c4a32"/>
+    <!-- Asia -->
+    <path d="M380,60 Q360,50 380,90 Q400,130 480,120 Q540,100 560,70 Q520,40 450,50 Q400,55 380,60 Z" fill="#e8dcc8" stroke="#5c4a32"/>
+    <!-- Australia -->
+    <path d="M520,220 Q500,210 510,240 Q530,260 560,250 Q580,230 560,215 Q540,210 520,220 Z" fill="#e8dcc8" stroke="#5c4a32"/>
+  </g>
+  
+  <!-- Leader: Singapore (star with rays) -->
+  <g transform="translate(520, 180)">
+    <!-- Rays -->
+    <g stroke="#8b6914" stroke-width="2" opacity="0.6">
+      <line x1="0" y1="-35" x2="0" y2="-50"/>
+      <line x1="25" y1="-25" x2="35" y2="-35"/>
+      <line x1="35" y1="0" x2="50" y2="0"/>
+      <line x1="25" y1="25" x2="35" y2="35"/>
+      <line x1="0" y1="35" x2="0" y2="50"/>
+      <line x1="-25" y1="25" x2="-35" y2="35"/>
+      <line x1="-35" y1="0" x2="-50" y2="0"/>
+      <line x1="-25" y1="-25" x2="-35" y2="-35"/>
+    </g>
+    <!-- Star burst -->
+    <polygon points="0,-30 8,-10 30,-8 12,5 18,28 0,15 -18,28 -12,5 -30,-8 -8,-10" fill="#d4af37" stroke="#8b6914" stroke-width="1.5"/>
+    <text x="0" y="45" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#5c4a32" text-anchor="middle">SINGAPORE</text>
+    <text x="0" y="58" font-family="Georgia, serif" font-size="9" fill="#8b7355" text-anchor="middle">LEADING</text>
+  </g>
+  
+  <!-- Chasing: EU/UK/UAE (running figures) -->
+  <g transform="translate(320, 120)">
+    <!-- EU -->
+    <circle cx="0" cy="0" r="12" fill="#c9a86c" stroke="#5c4a32" stroke-width="1.5"/>
+    <text x="0" y="4" font-family="Georgia, serif" font-size="8" font-weight="bold" fill="#3d2f1f" text-anchor="middle">EU</text>
+    <text x="0" y="25" font-family="Georgia, serif" font-size="9" fill="#6b5a45" text-anchor="middle">EU</text>
+    <!-- Motion lines -->
+    <line x1="-20" y1="0" x2="-35" y2="0" stroke="#8b7355" stroke-width="1" stroke-dasharray="3,2"/>
+  </g>
+  
+  <g transform="translate(300, 95)">
+    <!-- UK -->
+    <circle cx="0" cy="0" r="10" fill="#c9a86c" stroke="#5c4a32" stroke-width="1.5"/>
+    <text x="0" y="3" font-family="Georgia, serif" font-size="7" font-weight="bold" fill="#3d2f1f" text-anchor="middle">UK</text>
+    <text x="0" y="22" font-family="Georgia, serif" font-size="8" fill="#6b5a45" text-anchor="middle">UK</text>
+    <line x1="-18" y1="0" x2="-30" y2="0" stroke="#8b7355" stroke-width="1" stroke-dasharray="3,2"/>
+  </g>
+  
+  <g transform="translate(380, 150)">
+    <!-- UAE -->
+    <circle cx="0" cy="0" r="11" fill="#c9a86c" stroke="#5c4a32" stroke-width="1.5"/>
+    <text x="0" y="3" font-family="Georgia, serif" font-size="7" font-weight="bold" fill="#3d2f1f" text-anchor="middle">UAE</text>
+    <text x="0" y="23" font-family="Georgia, serif" font-size="8" fill="#6b5a45" text-anchor="middle">UAE</text>
+    <line x1="-19" y1="0" x2="-32" y2="0" stroke="#8b7355" stroke-width="1" stroke-dasharray="3,2"/>
+  </g>
+  
+  <!-- Lagging: US (behind, slower) -->
+  <g transform="translate(180, 140)">
+    <circle cx="0" cy="0" r="14" fill="#b8a080" stroke="#5c4a32" stroke-width="1.5" opacity="0.7"/>
+    <text x="0" y="4" font-family="Georgia, serif" font-size="9" font-weight="bold" fill="#5c4a32" text-anchor="middle">US</text>
+    <text x="0" y="28" font-family="Georgia, serif" font-size="9" fill="#8b7355" text-anchor="middle">LAGGING</text>
+    <!-- Dotted trail showing slow movement -->
+    <line x1="20" y1="0" x2="50" y2="0" stroke="#8b7355" stroke-width="1" stroke-dasharray="2,4"/>
+  </g>
+  
+  <!-- Race track lines -->
+  <path d="M150,280 Q300,260 400,270 Q550,285 650,275" fill="none" stroke="#8b7355" stroke-width="2" stroke-dasharray="8,4" opacity="0.5"/>
+  <path d="M150,300 Q300,280 400,290 Q550,305 650,295" fill="none" stroke="#8b7355" stroke-width="2" stroke-dasharray="8,4" opacity="0.5"/>
+  
+  <!-- Decorative corner elements -->
+  <g fill="none" stroke="#5c4a32" stroke-width="1.5">
+    <path d="M30,30 L60,30 L60,60"/>
+    <path d="M770,30 L740,30 L740,60"/>
+    <path d="M30,470 L60,470 L60,440"/>
+    <path d="M770,470 L740,470 L740,440"/>
+  </g>
+  
+  <!-- Caption box -->
+  <rect x="100" y="380" width="600" height="80" fill="#f0e6d2" stroke="#8b7355" stroke-width="1"/>
+  <text x="400" y="410" font-family="Georgia, serif" font-size="13" fill="#3d2f1f" text-anchor="middle">While Western powers deliberate, the Lion City sprints ahead—</text>
+  <text x="400" y="430" font-family="Georgia, serif" font-size="13" fill="#3d2f1f" text-anchor="middle">setting the pace for global AI regulation in the roaring twenties of technology.</text>
+  
+  <!-- Newspaper style footer -->
+  <text x="400" y="485" font-family="Georgia, serif" font-size="10" fill="#8b7355" text-anchor="middle">GITSHIP NEWS • INTERNATIONAL EDITION • 1920s STYLE ILLUSTRATION</text>
+</svg>

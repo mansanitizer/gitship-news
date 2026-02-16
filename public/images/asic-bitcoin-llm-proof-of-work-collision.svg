@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" style="background-color: #f4f1ea;">
+  <defs>
+    <pattern id="hashPattern" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0,4 L8,4 M4,0 L4,8" stroke="#1a1a1a" stroke-width="0.3"/>
+    </pattern>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f4f1ea"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="'Playfair Display', serif" font-size="22" font-weight="700" fill="#1a1a1a" letter-spacing="0.05em">THE PROOF-OF-WORK COLLISION</text>
+  <text x="400" y="55" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="12" font-style="italic" fill="#4a4a4a">Two computational philosophies converging on open-weight models</text>
+  
+  <!-- Left Side: Bitcoin (Decentralized) -->
+  <rect x="50" y="80" width="220" height="300" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- Bitcoin Header -->
+  <rect x="50" y="80" width="220" height="40" fill="#1a1a1a"/>
+  <text x="160" y="105" text-anchor="middle" font-family="'IM Fell English SC', serif" font-size="14" fill="#f4f1ea" letter-spacing="0.1em">BITCOIN</text>
+  
+  <!-- Bitcoin Network Visualization -->
+  <!-- Central node -->
+  <circle cx="160" cy="160" r="20" fill="url(#hashPattern)" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="160" y="165" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="10" font-weight="bold" fill="#1a1a1a">₿</text>
+  
+  <!-- Surrounding nodes -->
+  <circle cx="100" cy="140" r="12" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="220" cy="140" r="12" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="85" cy="200" r="12" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="235" cy="200" r="12" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="120" cy="250" r="12" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="200" cy="250" r="12" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="160" cy="280" r="12" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1.5"/>
+  
+  <!-- Connection lines -->
+  <line x1="145" y1="150" x2="110" y2="145" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="175" y1="150" x2="210" y2="145" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="150" y1="175" x2="95" y2="195" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="170" y1="175" x2="225" y2="195" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="155" y1="178" x2="125" y2="240" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="165" y1="178" x2="195" y2="240" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="160" y1="180" x2="160" y2="270" stroke="#1a1a1a" stroke-width="1"/>
+  
+  <!-- Bitcoin Labels -->
+  <text x="160" y="325" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Verification-centric</text>
+  <text x="160" y="338" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Decentralized</text>
+  <text x="160" y="351" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Anti-fragile</text>
+  <text x="160" y="364" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" font-style="italic" fill="#4a4a4a">"The work, not the worker"</text>
+  
+  <!-- Right Side: AI (Centralized) -->
+  <rect x="530" y="80" width="220" height="300" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- AI Header -->
+  <rect x="530" y="80" width="220" height="40" fill="#4a4a4a"/>
+  <text x="640" y="105" text-anchor="middle" font-family="'IM Fell English SC', serif" font-size="14" fill="#f4f1ea" letter-spacing="0.1em">AI FRONTIER</text>
+  
+  <!-- Centralized Data Center Visualization -->
+  <!-- Main server building -->
+  <rect x="590" y="140" width="100" height="120" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- Server racks -->
+  <rect x="600" y="150" width="15" height="100" fill="url(#hashPattern)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="620" y="150" width="15" height="100" fill="url(#hashPattern)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="640" y="150" width="15" height="100" fill="url(#hashPattern)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="660" y="150" width="15" height="100" fill="url(#hashPattern)" stroke="#1a1a1a" stroke-width="1"/>
+  
+  <!-- Server lights -->
+  <circle cx="607" cy="160" r="2" fill="#1a1a1a"/>
+  <circle cx="607" cy="175" r="2" fill="#1a1a1a"/>
+  <circle cx="607" cy="190" r="2" fill="#1a1a1a"/>
+  <circle cx="627" cy="160" r="2" fill="#1a1a1a"/>
+  <circle cx="627" cy="175" r="2" fill="#1a1a1a"/>
+  <circle cx="647" cy="160" r="2" fill="#1a1a1a"/>
+  <circle cx="647" cy="190" r="2" fill="#1a1a1a"/>
+  <circle cx="667" cy="175" r="2" fill="#1a1a1a"/>
+  <circle cx="667" cy="205" r="2" fill="#1a1a1a"/>
+  
+  <!-- Cloud/Network above -->
+  <ellipse cx="640" cy="125" rx="35" ry="15" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="640" y="130" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="8" fill="#4a4a4a">API</text>
+  
+  <!-- Connection lines to cloud -->
+  <line x1="620" y1="140" x2="625" y2="138" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="660" y1="140" x2="655" y2="138" stroke="#1a1a1a" stroke-width="1"/>
+  
+  <!-- Users below -->
+  <circle cx="600" cy="285" r="8" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1"/>
+  <circle cx="640" cy="285" r="8" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1"/>
+  <circle cx="680" cy="285" r="8" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1"/>
+  
+  <!-- User connection lines -->
+  <line x1="600" y1="275" x2="600" y2="260" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="640" y1="275" x2="640" y2="260" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="680" y1="275" x2="680" y2="260" stroke="#1a1a1a" stroke-width="1"/>
+  
+  <!-- AI Labels -->
+  <text x="640" y="325" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Centralized</text>
+  <text x="640" y="338" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Scale-obsessed</text>
+  <text x="640" y="351" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">API-abstracted</text>
+  <text x="640" y="364" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" font-style="italic" fill="#4a4a4a">"Trust the provider"</text>
+  
+  <!-- Center: Convergence Zone -->
+  <rect x="310" y="120" width="180" height="220" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- Convergence arrows -->
+  <line x1="270" y1="200" x2="310" y2="200" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="530" y1="200" x2="490" y2="200" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Open Weight Models -->
+  <text x="400" y="145" text-anchor="middle" font-family="'IM Fell English SC', serif" font-size="11" fill="#1a1a1a" letter-spacing="0.05em">CONVERGENCE</text>
+  
+  <!-- Open book/model icon -->
+  <path d="M 370 160 Q 400 155 430 160 L 430 210 Q 400 205 370 210 Z" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="400" y1="158" x2="400" y2="208" stroke="#1a1a1a" stroke-width="1"/>
+  
+  <!-- Text lines in book -->
+  <line x1="378" y1="170" x2="395" y2="168" stroke="#1a1a1a" stroke-width="0.5"/>
+  <line x1="378" y1="180" x2="395" y2="178" stroke="#1a1a1a" stroke-width="0.5"/>
+  <line x1="378" y1="190" x2="395" y2="188" stroke="#1a1a1a" stroke-width="0.5"/>
+  <line x1="405" y1="170" x2="422" y2="168" stroke="#1a1a1a" stroke-width="0.5"/>
+  <line x1="405" y1="180" x2="422" y2="178" stroke="#1a1a1a" stroke-width="0.5"/>
+  <line x1="405" y1="190" x2="422" y2="188" stroke="#1a1a1a" stroke-width="0.5"/>
+  
+  <!-- Convergence elements -->
+  <text x="400" y="240" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Open-Weight Models</text>
+  <text x="400" y="255" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Inference-Optimized Chips</text>
+  <text x="400" y="270" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">GPU Commoditization</text>
+  
+  <!-- Result -->
+  <rect x="350" y="285" width="100" height="40" fill="#1a1a1a"/>
+  <text x="400" y="310" text-anchor="middle" font-family="'IM Fell English SC', serif" font-size="11" fill="#f4f1ea" letter-spacing="0.05em">BITCOIN-LIKE</text>
+  
+  <!-- Caption -->
+  <text x="400" y="420" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="10" font-style="italic" fill="#4a4a4a">Fig. 2 — Open-weight models push AI toward a Bitcoin-like topology.</text>
+  
+  <!-- Decorative border -->
+  <rect x="20" y="20" width="760" height="410" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="25" y="25" width="750" height="400" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+</svg>

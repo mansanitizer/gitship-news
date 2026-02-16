@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color: #f4f1ea;">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#d4d0c8" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <rect width="800" height="400" fill="url(#grid)"/>
+  
+  <text x="400" y="35" text-anchor="middle" font-family="'Playfair Display', serif" font-size="22" font-weight="700" fill="#1a1a1a">STEINBERGER'S FIRST 90 DAYS</text>
+  <text x="400" y="55" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="12" font-style="italic" fill="#4a4a4a">He's there. Now what?</text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#1a1a1a" stroke-width="3"/>
+  
+  <!-- Day 0 -->
+  <circle cx="150" cy="200" r="15" fill="#1a1a1a"/>
+  <text x="150" y="170" text-anchor="middle" font-family="'IM Fell English SC', serif" font-size="10" fill="#1a1a1a">DAY 0</text>
+  <text x="150" y="240" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Arrival</text>
+  
+  <!-- Day 30 -->
+  <circle cx="300" cy="200" r="12" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="300" y="170" text-anchor="middle" font-family="'IM Fell English SC', serif" font-size="10" fill="#1a1a1a">DAY 30</text>
+  <text x="300" y="240" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Agent</text>
+  <text x="300" y="255" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Orchestration</text>
+  
+  <!-- Day 60 -->
+  <circle cx="500" cy="200" r="12" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="500" y="170" text-anchor="middle" font-family="'IM Fell English SC', serif" font-size="10" fill="#1a1a1a">DAY 60</text>
+  <text x="500" y="240" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Trust Levels</text>
+  <text x="500" y="255" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Framework</text>
+  
+  <!-- Day 90 -->
+  <circle cx="650" cy="200" r="15" fill="#1a1a1a"/>
+  <text x="650" y="170" text-anchor="middle" font-family="'IM Fell English SC', serif" font-size="10" fill="#1a1a1a">DAY 90</text>
+  <text x="650" y="240" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Agent Mesh</text>
+  <text x="650" y="255" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">Protocol</text>
+  
+  <!-- OpenAI Building -->
+  <rect x="350" y="280" width="100" height="60" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="360" y="290" width="15" height="15" fill="#1a1a1a"/>
+  <rect x="385" y="290" width="15" height="15" fill="#1a1a1a"/>
+  <rect x="410" y="290" width="15" height="15" fill="#1a1a1a"/>
+  <rect x="360" y="315" width="15" height="15" fill="#1a1a1a"/>
+  <rect x="385" y="315" width="15" height="15" fill="#1a1a1a"/>
+  <rect x="410" y="315" width="15" height="15" fill="#1a1a1a"/>
+  
+  <text x="400" y="360" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="9" fill="#4a4a4a">OpenAI HQ</text>
+  
+  <text x="400" y="390" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="10" font-style="italic" fill="#4a4a4a">Fig. 2 — From OpenClaw to Codex: 90 days to change the infrastructure of intelligence.</text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" style="background-color: #f4f1ea;">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#d4d0c8" stroke-width="0.5"/>
+    </pattern>
+    <filter id="vintage">
+      <feColorMatrix type="matrix" values="0.8 0 0 0 0.1  0 0.8 0 0 0.1  0 0 0.8 0 0.1  0 0 0 1 0"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f4f1ea"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="'Playfair Display', serif" font-size="22" font-weight="700" fill="#1a1a1a" letter-spacing="0.05em">THE COMMODITIZATION CURVE</text>
+  <text x="400" y="55" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="12" font-style="italic" fill="#4a4a4a">Efficiency improvements in Bitcoin ASICs and AI GPUs (2016-2025)</text>
+  
+  <!-- Chart Area -->
+  <rect x="80" y="80" width="640" height="320" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- Y-axis labels -->
+  <text x="70" y="85" text-anchor="end" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">100</text>
+  <text x="70" y="145" text-anchor="end" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">80</text>
+  <text x="70" y="205" text-anchor="end" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">60</text>
+  <text x="70" y="265" text-anchor="end" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">40</text>
+  <text x="70" y="325" text-anchor="end" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">20</text>
+  <text x="70" y="385" text-anchor="end" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">0</text>
+  
+  <!-- Y-axis title -->
+  <text x="25" y="240" text-anchor="middle" font-family="'IM Fell English SC', serif" font-size="11" fill="#2d2d2d" transform="rotate(-90 25 240)">EFFICIENCY INDEX (NORMALIZED)</text>
+  
+  <!-- X-axis labels -->
+  <text x="80" y="420" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">2016</text>
+  <text x="200" y="420" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">2018</text>
+  <text x="320" y="420" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">2020</text>
+  <text x="440" y="420" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">2022</text>
+  <text x="560" y="420" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">2024</text>
+  <text x="680" y="420" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="10" fill="#4a4a4a">2025</text>
+  
+  <!-- X-axis title -->
+  <text x="400" y="445" text-anchor="middle" font-family="'IM Fell English SC', serif" font-size="11" fill="#2d2d2d">YEAR</text>
+  
+  <!-- Grid lines -->
+  <line x1="80" y1="140" x2="720" y2="140" stroke="#d4d0c8" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="200" x2="720" y2="200" stroke="#d4d0c8" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="260" x2="720" y2="260" stroke="#d4d0c8" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="320" x2="720" y2="320" stroke="#d4d0c8" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="380" x2="720" y2="380" stroke="#d4d0c8" stroke-width="0.5" stroke-dasharray="4,4"/>
+  
+  <!-- Bitcoin ASIC Line (solid) -->
+  <polyline points="80,85 200,145 320,205 440,265 560,325 680,370" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  
+  <!-- Bitcoin ASIC data points -->
+  <circle cx="80" cy="85" r="5" fill="#1a1a1a"/>
+  <circle cx="200" cy="145" r="4" fill="#1a1a1a"/>
+  <circle cx="320" cy="205" r="4" fill="#1a1a1a"/>
+  <circle cx="440" cy="265" r="4" fill="#1a1a1a"/>
+  <circle cx="560" cy="325" r="4" fill="#1a1a1a"/>
+  <circle cx="680" cy="370" r="5" fill="#1a1a1a"/>
+  
+  <!-- AI GPU Line (dashed) -->
+  <polyline points="320,300 440,250 560,200 680,150" fill="none" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- AI GPU data points -->
+  <circle cx="320" cy="300" r="4" fill="#4a4a4a"/>
+  <circle cx="440" cy="250" r="4" fill="#4a4a4a"/>
+  <circle cx="560" cy="200" r="4" fill="#4a4a4a"/>
+  <circle cx="680" cy="150" r="5" fill="#4a4a4a"/>
+  
+  <!-- Legend -->
+  <rect x="520" y="95" width="180" height="70" fill="#f4f1ea" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="535" y1="115" x2="565" y2="115" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="550" cy="115" r="3" fill="#1a1a1a"/>
+  <text x="575" y="120" font-family="'Old Standard TT', serif" font-size="10" fill="#2d2d2d">Bitcoin ASICs</text>
+  <text x="575" y="132" font-family="'Old Standard TT', serif" font-size="8" font-style="italic" fill="#4a4a4a">(Joules/TH normalized)</text>
+  
+  <line x1="535" y1="145" x2="565" y2="145" stroke="#4a4a4a" stroke-width="2" stroke-dasharray="6,3"/>
+  <circle cx="550" cy="145" r="3" fill="#4a4a4a"/>
+  <text x="575" y="150" font-family="'Old Standard TT', serif" font-size="10" fill="#2d2d2d">AI GPU Rental Price</text>
+  <text x="575" y="162" font-family="'Old Standard TT', serif" font-size="8" font-style="italic" fill="#4a4a4a">($/hr, inverted scale)</text>
+  
+  <!-- Annotations -->
+  <text x="80" y="75" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="8" fill="#4a4a4a">S9</text>
+  <text x="320" y="195" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="8" fill="#4a4a4a">S19</text>
+  <text x="560" y="315" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="8" fill="#4a4a4a">S21</text>
+  <text x="680" y="360" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="8" fill="#4a4a4a">S23</text>
+  
+  <text x="320" y="290" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="8" fill="#4a4a4a">V100</text>
+  <text x="560" y="190" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="8" fill="#4a4a4a">A100</text>
+  <text x="680" y="140" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="8" fill="#4a4a4a">H100</text>
+  
+  <!-- Caption -->
+  <text x="400" y="475" text-anchor="middle" font-family="'Old Standard TT', serif" font-size="10" font-style="italic" fill="#4a4a4a">Fig. 1 — Both Bitcoin mining hardware and AI accelerators follow the same commoditization trajectory.</text>
+  
+  <!-- Decorative corner elements -->
+  <path d="M 75 75 L 85 75 L 85 85 L 75 85 Z" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <path d="M 715 75 L 725 75 L 725 85 L 715 85 Z" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <path d="M 75 395 L 85 395 L 85 405 L 75 405 Z" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <path d="M 715 395 L 725 395 L 725 405 L 715 405 Z" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+</svg>
